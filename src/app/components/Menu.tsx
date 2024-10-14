@@ -66,14 +66,14 @@ const Menu = () => {
             alt="Logo"
             width={40}
             height={40}
-            className="ml-2 mr-8"
+            className="ml-2 mr-4 sm:mr-8"
           />
         </Link>
         <input
           id="searchInput"
           type="text"
           placeholder="Find a game to collect..."
-          className="rounded-3xl ml-2 p-2 w-full text-zinc-100 pl-4 hover:shadow-sm hover:shadow-orange-500/50 bg-zinc-800"
+          className="rounded-3xl mr-2 p-2 w-full text-zinc-100 pl-4 hover:shadow-sm hover:shadow-orange-500/50 bg-zinc-800"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           onClick={() => searchGames(searchTerm)}

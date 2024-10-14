@@ -110,7 +110,7 @@ const GameDetail = () => {
       </h2>
       <div className="w-full flex flex-col md:flex-row justify-center items-center pt-4 bg-zinc-900 text-white w-full sm:w-3/4 rounded-lg p-1 sm:p-4 md:p-6 drop-shadow-xl">
         {game.cover && (
-          <div className="flex p-10 rounded-lg items-center">
+          <div className="flex p-10 rounded-lg items-center justify-center">
             <Image
               src={`https:${game.cover.url}`}
               alt={`${game.name} cover`}
