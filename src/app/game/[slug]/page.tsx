@@ -82,9 +82,9 @@ const GameDetail = () => {
   };
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const openModal = (imageId: any) => {
+  const openModal = (imageId: string) => {
     setSelectedImage(imageId);
     setIsModalOpen(true);
   };
