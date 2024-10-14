@@ -67,7 +67,7 @@ const CollectedGames = () => {
 
   return (
     <div className="w-full justify-center items-center text-center pt-8 py-4 sm:px-4 bg-zinc-900 relative z-0">
-      <h2 className="text-2xl font-bold border-b border-zinc-800 pb-5">
+      <h2 className="text-2xl font-bold border-b border-zinc-800 pb-5 text-white">
         COLLECTED <span className="text-orange-500">GAMES</span>
       </h2>
       <div className="flex space-x-2 mb-4 mt-4 text-sm justify-center items-center flex-wrap">
@@ -136,7 +136,7 @@ const CollectedGames = () => {
                     />
                   </div>
                 )}
-                <div className="border-t border-zinc-800 w-full pt-4 px-2 ">
+                <div className="border-t border-zinc-800 w-full pt-4 px-2 text-white">
                   {collectedGame.name}
                 </div>
               </Link>

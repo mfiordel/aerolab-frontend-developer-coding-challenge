@@ -121,7 +121,7 @@ const Menu = () => {
                   ) : (
                     <div className="w-10 h-10 bg-gray-200 rounded mr-2" />
                   )}
-                  <p className="text-sm ml-2">{game.name}</p>
+                  <p className="text-sm ml-2 text-white">{game.name}</p>
                 </Link>
               </div>
             ))}
